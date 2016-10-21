@@ -13,6 +13,11 @@ public class ClemensStudent extends Student
     private String firstName;
     private String lastName;
 
+	public ClemensStudent()
+    {
+
+    }
+
     public ClemensStudent(int id, int gradeOne, int gradeTwo, int gradeThree)
     {
     	super(id, gradeOne, gradeTwo, gradeThree);

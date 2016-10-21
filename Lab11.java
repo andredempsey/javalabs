@@ -107,7 +107,7 @@ public class Lab11
         	int g1 = (int)(Math.random() * 41+60);
         	int g2 = (int)(Math.random() * 41+60);
         	int g3 = (int)(Math.random() * 41+60);
-    		array[n] =  new ClemensStudent(id, g1, g2, g3);
+    		array[n] =  new ClemensStudent();
     		array[n].setName("first");
     		array[n].setName("last");
     		array[n].display();
